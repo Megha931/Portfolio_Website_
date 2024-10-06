@@ -1,0 +1,123 @@
+#works {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 75rem; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.workTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #5FFFFF;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.workDesc {
+  font-size: 1rem; 
+  max-width: 70rem; 
+  padding: 0 5rem; 
+  margin-bottom: 2rem;
+  text-align: justify;
+  line-height: 1.8; 
+  font-weight: 300;
+}
+
+.workBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+
+.workBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 3rem; 
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+  align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
+  max-width: 70rem; 
+}
+
+.workBarImg {
+  object-fit: cover;
+  height: 4.5rem; 
+  width: 4.5rem; 
+  margin-right: 2rem;
+}
+
+.workBarText {
+  transition: all 0.3s ease;
+}
+
+.workBarText h3 {
+  font-size: 1.5rem; 
+  font-weight: 500; 
+}
+
+.workBarText.active h3 {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.workBarText p {
+  display: none;
+}
+
+.workBarText.active p {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.githubLink {
+  display: inline-flex;
+  align-items: center;
+  background-color: #333;
+  color: #5FFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.githubLink:hover {
+  background-color: #555; 
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.githubLogoIcon {
+  height: 1.2rem; /* Adjust the size as needed */
+  margin-right: 0.5rem; /* Spacing between icon and text */
+}
+
+@media screen and (max-width: 720px) {
+  .workBarText > p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workBarText > p {
+    font-size: 3vw;
+  }
+  .workBarImg {
+    height: 3.5rem; 
+    width: 3.5rem; 
+  }
+  .workBarText > h3 {
+    font-size: 5vw;
+  }
+}

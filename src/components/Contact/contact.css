@@ -1,0 +1,131 @@
+#contact {
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+    text-align: center; 
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 2.5rem; 
+    color: #5FFFFF;
+}
+
+.contactDescription {
+    font-size: 1.2rem;
+    margin-bottom: 2rem; 
+    text-align: justify;
+    font-weight: 300;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.name, .email, .msg {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: #444;
+}
+
+.submitBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5FFFFF;
+    color: #444;
+    padding: 0.5rem 1.5rem; 
+    font-size: 0.875rem; 
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submitBtn img {
+    margin-right: 0.5rem; 
+    height: 1rem; 
+}
+
+.submitBtn:hover {
+    background: white;
+    color: black;
+}
+
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 20rem;
+}
+
+.contactDetailItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contactDetailIcon {
+    margin-right: 1rem;
+    width: 1.5rem; 
+    height: 1.5rem; 
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.link {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    transition: transform 0.3s;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.link img {
+    width: 100%;
+    height: 100%;
+}
+
+.downloadBtn {
+    background: #5FFFFF; 
+    color: #444;
+    padding: 0.5rem 1.5rem; 
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.downloadBtn:hover {
+    background: white; 
+    color: black; 
+}

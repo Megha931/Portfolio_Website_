@@ -1,0 +1,84 @@
+#techstackSection {
+  padding: 2rem;
+  background: rgb(30, 30, 30); 
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.techstackTitle {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #5FFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.techstackBox {
+  background: rgb(40, 40, 40);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  color: #fff;
+  width: 60%; /* Keep it at 60% of the page width */
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.techstackBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.techstackList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.techstackItem {
+  margin-bottom: 1.5rem;
+  font-size: 1.0rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  font-weight: normal; /* Ensure text is not bold */
+}
+
+/* Remove checkmark icon */
+
+@media screen and (max-width: 720px) {
+  .techstackBox {
+    width: 90%; /* Adjust width on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .techstackTitle {
+    font-size: 2rem;
+  }
+
+  .techstackBox {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+}
+
+
+
+
+.techstackItem::before {
+  content: ""; /* No content text, just the image */
+  display: inline-block; /* Make it inline to align with text */
+  background-image: url("/src/assets/checkmark.png"); /* Path to your checkmark image */
+  background-size: 16px 16px; /* Ensure uniform scaling of the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  width: 16px; /* Explicit width for the icon */
+  height: 16px; /* Explicit height for the icon */
+  margin-right: 10px; /* Space between the icon and the text */
+}
+
+

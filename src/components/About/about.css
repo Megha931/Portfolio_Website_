@@ -1,0 +1,107 @@
+#aboutSection {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #5FFFFF;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    padding: 0 2rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.aboutDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutEducationSection {
+    width: 100%;
+    max-width: 60rem;
+    margin-top: 2rem;
+}
+
+.aboutEducationTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5FFFFF;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.aboutEducationBox {
+    background: rgb(50, 50, 50);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.aboutEducationBox:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); 
+    background-color: rgb(100, 109, 113); 
+}
+
+.aboutCollegeLogo {
+    width: 5rem; 
+    height: 5rem; 
+    margin-right: 2rem;
+}
+
+.aboutEducationDetails {
+    text-align: left;
+    color: white;
+}
+
+.aboutEducationBox h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.aboutEducationBox p {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 720px) {
+    .aboutEducationBox p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutEducationBox p {
+        font-size: 3vw;
+    }
+    .aboutEducationBox h3 {
+        font-size: 4vw;
+    }
+    .aboutCollegeLogo {
+        width: 4rem; 
+        height: 4rem; 
+    }
+}
