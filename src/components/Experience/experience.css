@@ -8,13 +8,13 @@
 }
 
 .section-title {
-    font-size: 3rem; /* Increase font size */
-    line-height: 1.5; /* Adjust line height for better spacing */
-    padding: 20px 0; /* Add padding for more height */
-    margin-bottom: 20px; /* Add margin for spacing below */
-    text-align: center; /* Center align the title */
-    color: #5FFFFF; /* Change color as needed */
-    font-weight: bold; /* Make it bold for emphasis */
+    font-size: 3rem; 
+    line-height: 1.5; 
+    padding: 20px 0; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #5FFFFF;
+    font-weight: bold; 
 }
 
 .experience-container {
