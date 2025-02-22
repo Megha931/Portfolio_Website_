@@ -99,8 +99,8 @@
 }
 
 .githubLogoIcon {
-  height: 1.2rem; /* Adjust the size as needed */
-  margin-right: 0.5rem; /* Spacing between icon and text */
+  height: 1.2rem; 
+  margin-right: 0.5rem; 
 }
 
 @media screen and (max-width: 720px) {
