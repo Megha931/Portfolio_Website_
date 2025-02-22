@@ -19,7 +19,7 @@ Messaging Service: EmailJS
 ## Setup Instructions
 
 Clone the Repository
-git clone https://github.com/yourusername/Portfolio.git
+https://github.com/Megha931/Portfolio_Website_.git
 
 Install Dependencies
 npm install
