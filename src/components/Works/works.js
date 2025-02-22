@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./works.css";
 import ChessIcon from "../../assets/chess.png";
-//import HateSpeechIcon from "../../assets/Hate-speech.png";
 import BlogIcon from "../../assets/book.png";
 import TextToSpeechIcon from "../../assets/text-to-speech.png";
 import GitHubLogo from "../../assets/github_logo.png"; 
@@ -30,7 +29,7 @@ const Works = () => {
     },*/
     {
       id: 2,
-      icon: Task, // Use the new icon for the Task Manager project
+      icon: Task, 
       title: "Task Management System",
       description: `Developed a responsivetask management system with React, featuring drag-and-drop functionality. Users can add tasks, set priorities, and deadlines with a modern interface styled with Tailwind CSS.`,
       github: "https://github.com/Megha931/Task-Manager"
