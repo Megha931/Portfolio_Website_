@@ -13,7 +13,7 @@ const Experience = () => {
 
     const handleGolokaCertificate = () => {
         setMessage('Currently ongoing internship, certificate yet to receive.');
-        setTimeout(() => setMessage(''), 3000); // Message disappears after 3 seconds
+        setTimeout(() => setMessage(''), 3000); 
     };
 
     const handleAspireCertificate = () => {
@@ -47,7 +47,7 @@ const Experience = () => {
                     </div>
                 </div>
 
-                {/* AspireNex Experience Card */}
+               
                 <div className="experience-card">
                     <img src={aspireLogo} alt="AspireNex Logo" className="company-logo-large" />
                     <div className="experience-info">
