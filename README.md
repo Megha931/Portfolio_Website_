@@ -25,22 +25,18 @@ Messaging Service: EmailJS – to send messages directly from the contact form
 📁 Setup Instructions
 Follow these steps to run the portfolio locally:
 
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/Megha931/Portfolio_Website_.git
+Clone the Repository
+
 cd Portfolio_Website_
-2. Install Dependencies
-bash
-Copy
-Edit
+
+Install Dependencies
+
 npm install
-3. Run the Project
-bash
-Copy
-Edit
+
+Run the Project
+
 npm start
+
 The application will be available at:
 👉 http://localhost:3000
 
